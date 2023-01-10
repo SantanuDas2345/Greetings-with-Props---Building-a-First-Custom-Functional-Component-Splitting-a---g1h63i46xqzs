@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import '../styles/App.css';
+import Welcome from './Welcome';
 
-export default function Welcome(props) {
+const App = () => {
   return (
-    <React.Fragment>
-        <h1>Hey {props.name}!</h1>
-        <h2>Welcome to Newton School.</h2>
-    </React.Fragment>
+    <Welcome name="" />
   )
 }
+
+
+export default App;
